@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container__box{
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.user__name{
+    font-size: 28px;
+    color: rgb(0, 170, 255);
+    margin: 10px 0;
+}
+.user__email{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px 13px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(0.9);
+    box-shadow: 2px 2px 10px #4f4f4f;
+}
+.container__btn{
+    margin: 10px 0;
+}
+.container__btn button:first-child{
+    background-color: rgb(0, 102, 255);
+}
+.container__btn button:last-child{
+    background-color: rgb(0, 179, 255);
+}
+.show__user{
+    background-color: rgb(0, 176, 82);
+}
